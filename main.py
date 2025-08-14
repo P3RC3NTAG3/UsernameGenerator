@@ -41,4 +41,4 @@ for j in range(namequantity):
         numbers+=str(randint(0,9))
     delimiter=choice(delimiters)
     print(choice(adjectives)+delimiter+choice(nouns)+("" if numbers=="" else delimiter)+numbers)
-
+input("Press enter to quit.")
