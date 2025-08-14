@@ -29,7 +29,7 @@ nouns = [
     "Thorn", "Thread", "Tree", "Vale", "Valley", "Vine", "Wave", "Wing",
     "Wood"
 ]
-wordseparators=["",".","-","_"]
+delimiters=["",".","-","_"]
 try:
     namequantity=int(input("How many usernames would you like generated? "))
 except:
@@ -39,5 +39,6 @@ for j in range(namequantity):
     numbers=""
     for i in range(randint(0,4)):
         numbers+=str(randint(0,9))
-    wordseparator=choice(wordseparators)
-    print(choice(adjectives)+wordseparator+choice(nouns)+("" if numbers=="" else wordseparator)+numbers)
+    delimiter=choice(delimiters)
+    print(choice(adjectives)+delimiter+choice(nouns)+("" if numbers=="" else delimiter)+numbers)
+
