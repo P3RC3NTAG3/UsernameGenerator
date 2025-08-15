@@ -1,6 +1,6 @@
 # UsernameGenerator  
 ## by P3RC3NTAG3  
-**with a tiny bit of help from ChatGPT**
+###### with a tiny bit of help from ChatGPT
 
 ---
 
